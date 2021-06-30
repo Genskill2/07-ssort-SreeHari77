@@ -12,6 +12,7 @@ pos=i;
 }
 arr[pos]=arr[n];
 arr[n]=max;
+  return 0;
 }
 
 int ssort(int arr[], int l){
