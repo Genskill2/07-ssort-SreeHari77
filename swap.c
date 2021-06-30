@@ -3,18 +3,15 @@
 
 int swap_max(int arr[],int l,int n){
 int max=arr[n];
-int pos=-1;
+int pos=n;
 for(int i=n;i<l;i++){
 if(arr[i]>max){
 max=arr[i];
 pos=i;
 }
 }
- 
 arr[pos]=arr[n];
 arr[n]=max;
- 
-
 }
 
 int ssort(int arr[],int l){
